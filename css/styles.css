@@ -1,0 +1,38 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.2px solid rgb(202, 202, 202);
+    height: 23px;
+    padding: 10px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left button{
+    padding-right: 10px;
+    background: none;
+    border: none;
+}
+
+.nav-left button img{
+    max-width: 15px;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+}
+
+.main h2{
+    padding-top: 50px;
+    grid-column-start: 3;
+    font-size: 40px;
+}
