@@ -49,10 +49,11 @@
 }
 
 .main figcaption {
+    color: #6A6666;
     letter-spacing: .01em;
     grid-row-start: 4;
     grid-column-start: 2;
-    grid-column-end: span 3;
+    grid-column-end: span 2;
     font-size: 14px;
 }
 
@@ -66,7 +67,6 @@
     grid-column-start: 3;
     grid-column-end: 3;
     padding-top: 30px;
-    
 }
 
 .article-info h4 {
@@ -78,17 +78,61 @@
     justify-content: space-between;
 }
 
-
-
-.img-icon a img{
+.img-icon a img {
     padding-top: 25px;
     width: 25px;
 }
 
-.main-article{
-    
+.main-article {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
+.main-article p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #1f1c1c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.main-article h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
 
+.inflation-theory {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
 
+.inflation-theory h2 {
+    font-size: 20px;
+}
+
+.inflation-theory p {
+    font-size: 14px;
+    color: #666;
+}
+
+.inflation-pic {
+    border: 1px solid black;
+    display: grid;
+    /* grid-row-start: 8; */
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.inflation-pic img {
+    grid-template-columns: repeat(4, 200px);
+    grid-column-start: 1;
+    grid-column-end: 4s;
+    grid-column-gap: 16px;
+}
+
+.inflation-pic p {
+    grid-template-columns: repeat(4, 200px);
+}
