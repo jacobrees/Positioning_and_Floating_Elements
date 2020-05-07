@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 0.2px solid rgb(202, 202, 202);
-    height: 23px;
-    padding: 10px;
+    height: 42px;  
     background-color: white;
     top: 0;
     position: fixed;
@@ -13,16 +12,22 @@
 .nav-left {
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 .nav-left button {
-    padding-right: 10px;
+    padding-right: 15px;
     background: none;
     border: none;
+    
 }
 
 .nav-left button img {
     max-width: 15px;
+}
+
+.nav-left h3{
+    font-weight: 700;
 }
 
 .nav-center {
@@ -30,8 +35,28 @@
     align-items: center;
 }
 
+.nav-center img{
+    max-width: 230px;
+}
+
 .nav-right {
     padding-right: 30px;
+    
+}
+
+.nav-right button{
+    color: white;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 3px;
 }
 
 .main {
