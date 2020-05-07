@@ -4,11 +4,17 @@
     border-bottom: 0.2px solid rgb(202, 202, 202);
     height: 23px;
     padding: 10px;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    
 }
 
 .nav-left {
     display: flex;
     align-items: center;
+   
 }
 
 .nav-left button {
@@ -24,6 +30,10 @@
 .nav-center {
     display: flex;
     align-items: center;
+}
+
+.nav-right{
+    padding-right: 30px;
 }
 
 .main {
@@ -126,6 +136,7 @@
     grid-column-end: 5;
     grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5];
     grid-template-rows: [r1] 1fr [r2] 1fr [r3];
+    /* grid-column-gap: 16px; */
 }
 
 .inflation-pic img {
@@ -134,7 +145,7 @@
     grid-column-end: c5;
     grid-row-start: r1;
     grid-row-end: r3;
-    grid-column-gap: 16px;
+    
     
 
 }
@@ -143,39 +154,37 @@
     font-family: georgia,arial,helvetica,sans-serif;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 140px;
+    margin-top: 140px;    
+}
+
+.inflation-pic pic-1 {
     
 }
 
-.inflation-pic pic1 {
-    grid-row: r1;
-    grid-column: c1;
+.inflation-pic pic-2 {
+    
 }
-.inflation-pic pic2 {
-    grid-row: r1;
-    grid-column: c2;
+
+.inflation-pic pic-3 {
+    
 }
-.inflation-pic pic3 {
-    grid-row: r1;
-    grid-column: c3;
+
+.inflation-pic pic-4 {
+    
 }
-.inflation-pic pic4 {
-    grid-row: r1;
-    grid-column: c4;
+
+.inflation-pic pic-5 {
+    
 }
-.inflation-pic pic5 {
-    grid-row: r2;
-    grid-column: c1;
+
+.inflation-pic pic-6 {
+    
 }
-.inflation-pic pic6 {
-    grid-row: r2;
-    grid-column: c2;
+
+.inflation-pic pic-7 {
+    
 }
-.inflation-pic pic7 {
-    grid-row: r2;
-    grid-column: c3;
-}
-.inflation-pic pic8 {
-    grid-row: r2;
-    grid-column: c4;
+
+.inflation-pic pic-8 {
+    
 }
