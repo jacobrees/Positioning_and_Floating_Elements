@@ -153,6 +153,10 @@
     font-weight: 300;
 }
 
+.inflation-pic p span{
+    font-weight: 800;
+}
+
 .pic-1 {
     grid-column-start: c1;
     grid-column-end: c2;
