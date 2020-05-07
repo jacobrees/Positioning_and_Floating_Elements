@@ -93,21 +93,22 @@
     width: 25px;
 }
 
-.main-article {
+.main-article-1 {
     grid-row-start: 6;
     grid-row-end: 6;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.main-article p {
+.main-font p{
     padding-top: 20px;
     font-size: 20px;
     color: #1f1c1c;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
 }
 
-.main-article h2 {
+.main-font h2 {
     font-size: 22px;
     font-weight: bold;
 }
@@ -187,4 +188,31 @@
 
 .inflation-pic pic-8 {
     
+}
+
+.main-article-2 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.main-article-3 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+
+.main-article-3 iframe {
+    width: 600px;
+    height: 319px;   
+}
+
+.main-article-4 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
