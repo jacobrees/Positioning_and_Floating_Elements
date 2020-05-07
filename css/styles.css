@@ -59,3 +59,36 @@
 .main figcaption span {
     font-size: 12px;
 }
+
+.article-info {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    padding-top: 30px;
+    
+}
+
+.article-info h4 {
+    padding-top: 30px;
+}
+
+.article-info-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.img-icon a img{
+    padding-top: 25px;
+    width: 25px;
+}
+
+.main-article{
+    
+}
+
+
+
+
