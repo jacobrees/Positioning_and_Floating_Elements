@@ -384,12 +384,12 @@ body {
     grid-column-end: more-c2;
 }
 
-.more-ads{
+.more-ads {
     display: flex;
     flex-wrap: wrap;
 }
 
-.most-popular{
+.most-popular {
     grid-row-start: title-r1;
     grid-row-end: more-r1;
     grid-column-start: empty;
