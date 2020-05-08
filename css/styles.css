@@ -421,19 +421,19 @@ body {
 }
 
 .footer-grid {
-    margin-top: 5px;
+    margin-top: 15px;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 16;
     grid-row-end: 17;
-    grid-template-columns: [fc-1] 1fr [fc-2] 1fr [fc-3] 1fr [fc-4] 1fr [fc-5] 1fr [fc-6] 1fr [fc-7] 1fr [fc-8];
+    grid-template-columns: [fc-1] 1fr [fc-2] 1fr [fc-3] 1fr [fc-4] 1fr [fc-5] 1fr [fc-6] 1fr [fc-7];
     grid-template-rows: [fr-1] auto [fr-2] auto [fr-3] auto [fr-4];
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.footer-img a{
+.footer-img a {
     color: rgb(86, 123, 149);
     text-decoration: none;
     font-size: 11px;
@@ -494,13 +494,18 @@ body {
     grid-row-end: fr-3;
     grid-column-start: fc-6;
     grid-column-end: fc-7;
+    border-left: .5px solid lightgrey;
 }
 
 .foot-head {
     margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.foot-font{
+.foot-font {
+    margin-left: 15px;
     margin-top: 7px;
 }
 
@@ -508,4 +513,26 @@ body {
     font-size: 14px;
     text-decoration: none;
     color: rgb(51, 51, 51);
+}
+
+.foot-font1 {
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.menu-6f {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.menu-6f a {
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.foot-font1 img {
+    padding-right: 5px;
+    width: 15px;
+    height: 15px;
 }
