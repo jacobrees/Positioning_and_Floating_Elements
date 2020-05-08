@@ -120,6 +120,7 @@ body {
     margin-top: 25px;
     width: 15px;
     height: 15px;
+    
 }
 
 .main-article-1 {
@@ -529,6 +530,12 @@ body {
     font-size: 11px;
     text-decoration: none;
     color: rgb(51, 51, 51);
+}
+
+.menu-gap {
+    border-top: 0.5px solid lightgray;
+    padding-top: 8px;
+    margin-top: 8px;
 }
 
 .foot-font1 img {
