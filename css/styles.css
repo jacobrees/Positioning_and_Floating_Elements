@@ -317,7 +317,7 @@ body {
     grid-column-end: 6;
     grid-row-start: 15;
     grid-row-end: 16;
-    grid-template-columns: [more-c0]1fr [more-c1] 13fr [more-c2] 0.7fr [empty] 5fr [more-c3] 0.5fr [empty-2];
+    grid-template-columns: [more-c0] 0.5fr [more-c1] 13fr [more-c2] 0.7fr [empty] 5fr [more-c3] 0.5fr [empty-2];
     grid-template-rows: [title-r1] auto [more-r1] auto [more-r2] auto [more-r3] auto [more-r4];
 }
 
@@ -347,9 +347,8 @@ body {
 }
 
 .section-ad {
-    width: 270px;
+    width: 250px;
     margin: 10px 15px 60px 0;
-
 }
 
 .section-ad img {
@@ -364,7 +363,6 @@ body {
 .section-ad h6 {
     color: #999999;
     font-size: 12px;
-    
 }
 
 .editors-title {
@@ -399,14 +397,13 @@ body {
 .popular-title {
     padding-top: 20px;
     border-top: 1px solid black;
-    font-weight: 800;   
+    font-weight: 800;
 }
 
 .more-links {
     grid-row-start: more-r1;
     grid-row-end: more-r3;
     grid-column-start: empty;
-    grid-column-end: more-c3;
 }
 
 .link {
@@ -420,4 +417,52 @@ body {
 .link a {
     color: rgb(18, 18, 18);
     text-decoration: none;
+}
+
+.footer-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 16;
+    grid-row-end: 17;
+    grid-template-columns: [fc-1] 1fr [fc-2] 1fr [fc-3] 1fr [fc-4] 1fr [fc-5] 1fr [fc-6] 1fr [fc-7];
+    grid-template-rows: [fr-1] auto [fr-2] auto [fr-3] auto [fr-4];
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-img {
+    border-top: .5px solid lightgray;
+    grid-row-start: fr-1;
+    grid-row-end: fr-2;
+    grid-column-start: fc-1;
+    grid-column-end: fc-7;
+}
+
+.footer-img img {
+    max-width: 230px;
+}
+
+.footer-content {}
+
+.menu-1 {
+    grid-row-start: fr-2;
+    grid-row-end: fr-3;
+    grid-column-start: fc-1;
+    grid-column-end: fc-2;
+}
+
+.menu-2 {
+    grid-row-start: fr-2;
+    grid-row-end: fr-3;
+    grid-column-start: fc-2;
+    grid-column-end: fc-3;
+}
+
+.menu-1 {
+    grid-row-start: fr-2;
+    grid-row-end: fr-3;
+    grid-column-start: fc-3;
+    grid-column-end: fc-4;
 }
