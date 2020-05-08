@@ -317,7 +317,7 @@ body {
     grid-column-end: 6;
     grid-row-start: 15;
     grid-row-end: 16;
-    grid-template-columns: [more-c0] .5fr [more-c1] 12fr [more-c2] 5fr [more-c3];
+    grid-template-columns: [more-c0]1fr [more-c1] 13fr [more-c2] 0.7fr [empty] 5fr [more-c3] 0.5fr [empty-2];
     grid-template-rows: [title-r1] auto [more-r1] auto [more-r2] auto [more-r3] auto [more-r4];
 }
 
@@ -336,6 +336,7 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .more-section-grid {
@@ -347,7 +348,8 @@ body {
 
 .section-ad {
     width: 270px;
-    margin: 10px 15px 0 0;
+    margin: 10px 15px 60px 0;
+
 }
 
 .section-ad img {
@@ -362,12 +364,13 @@ body {
 .section-ad h6 {
     color: #999999;
     font-size: 12px;
+    
 }
 
 .editors-title {
     padding-top: 20px;
     border-top: 1px solid black;
-    grid-row-start: title-r2;
+    grid-row-start: more-r2;
     grid-row-end: more-r3;
     grid-column-start: more-c1;
     grid-column-end: more-c2;
@@ -379,4 +382,42 @@ body {
     grid-row-end: more-r4;
     grid-column-start: more-c1;
     grid-column-end: more-c2;
+}
+
+.more-ads{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.most-popular{
+    grid-row-start: title-r1;
+    grid-row-end: more-r1;
+    grid-column-start: empty;
+    grid-column-end: more-c3;
+}
+
+.popular-title {
+    padding-top: 20px;
+    border-top: 1px solid black;
+    font-weight: 800;   
+}
+
+.more-links {
+    grid-row-start: more-r1;
+    grid-row-end: more-r3;
+    grid-column-start: empty;
+    grid-column-end: more-c3;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    border-top: 0.5px lightgray solid;
+    padding-top: 15px;
+}
+
+.link a {
+    color: rgb(18, 18, 18);
+    text-decoration: none;
 }
