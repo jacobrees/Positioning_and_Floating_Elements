@@ -341,7 +341,7 @@ body {
 
 .more-section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -393,7 +393,7 @@ body {
 .more-ads {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .most-popular {
