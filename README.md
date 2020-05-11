@@ -14,7 +14,7 @@ Page includes video inside of article aswell as pictures, there are also adition
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/jacobrees/Positioning_and_Floating_Elements/0fa4af5a208b690f7ac9aa59c5cb89dc39081874/index.html
+Live link here: https://rawcdn.githack.com/jacobrees/Positioning_and_Floating_Elements/517e32d1fcb7d5220b9bbef133c73dde158334bf/index.html
 
 
 
