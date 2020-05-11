@@ -337,6 +337,7 @@ body {
     grid-column-start: more-c1;
     grid-column-end: more-c2;
     font-weight: 800;
+    margin-left: 10px;
 }
 
 .more-section {
@@ -345,9 +346,11 @@ body {
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 10px;
 }
 
 .more-section-grid {
+    margin-left: 10px;
     grid-row-start: more-r1;
     grid-row-end: more-r2;
     grid-column-start: more-c1;
