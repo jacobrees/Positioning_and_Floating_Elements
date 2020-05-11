@@ -22,10 +22,10 @@ Live link here: https://rawcdn.githack.com/jacobrees/Positioning_and_Floating_El
 
 👤 **Author1**
 Umair Ahmad
-Github: https://github.com/UmairAhmad125
-Linkedin: https://www.linkedin.com/in/umair-ahmad-b5a89015a/ 
+- Github: https://github.com/UmairAhmad125
+- Linkedin: https://www.linkedin.com/in/umair-ahmad-b5a89015a/ 
 
 👤 **Author2**
 Jacob Rees:
-Github: https://github.com/jacobrees
-Linkedin: https://www.linkedin.com/in/jacob-rees-a6507b1a6/
+- Github: https://github.com/jacobrees
+- Linkedin: https://www.linkedin.com/in/jacob-rees-a6507b1a6/
