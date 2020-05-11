@@ -82,7 +82,7 @@ body {
     width: 100%;
 }
 
-.main figcaption {
+.main h6 {
     color: #6A6666;
     letter-spacing: .01em;
     grid-row-start: 4;
@@ -91,7 +91,7 @@ body {
     font-size: 14px;
 }
 
-.main figcaption span {
+.main h6 span {
     font-size: 12px;
 }
 
@@ -103,7 +103,7 @@ body {
     padding-top: 30px;
 }
 
-.article-info h3{
+.article-info h3 {
     font-weight: 800;
     color: #333333;
 }
@@ -126,7 +126,6 @@ body {
     margin-top: 25px;
     width: 15px;
     height: 15px;
-    
 }
 
 .main-article-1 {
@@ -530,7 +529,6 @@ body {
 .menu-6f {
     margin-left: 15px;
     margin-top: 7px;
-    
 }
 
 .menu-6f a {
@@ -543,7 +541,6 @@ body {
     border-top: 0.5px solid lightgray;
     padding-top: 8px;
     margin-top: 8px;
-    
 }
 
 .foot-font1 img {
@@ -552,7 +549,7 @@ body {
     height: 15px;
 }
 
-.final-footer{
+.final-footer {
     grid-row-start: fr-3;
     grid-row-end: fr-4;
     grid-column-start: fc-1;
@@ -584,12 +581,11 @@ body {
     align-items: center;
 }
 
-.fixed-footer button{
+.fixed-footer button {
     border: none;
     background: none;
     font-weight: 800;
     font-size: 11px;
-
 }
 
 .fixed-footer button img {
