@@ -29,8 +29,10 @@ body {
     max-width: 15px;
 }
 
-.nav-left h3 {
+.nav-left h3 a {
     font-weight: 700;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-center {
